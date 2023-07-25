@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	body{
+		background-color: black;
+	}
+	#Yo{
+		color: whitesmoke;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		text-align: center;
+	}
+</style>
+<body>
+	<div id="Yo">
+	    <h1>Week 4 Solution </h1>
+        <h2>Right click and inspect element to check the console</h2>
+	</div>	
+	<script>
+		var names=new Array();
+names[0]="Franklin";
+names[1]="Jackob";
+names[2]="Joseph";
+names[3]="Max";
+names[4]="maddy";
+names[5]="frank";
+names[6]="Eren Yeager";
+names[7]="Naruto Uzamaki Namikaze";
+names[8]="Name";
+names[9]="Name2";
+
+
+for (var i = 0; i < names.length; i++) {
+	if(names[i].charAt(0)==='J'|| names[i].charAt(0)==='j'){
+        console.log("Goodbye "+ names[i])
+	}
+	else{
+		console.log("Hello "+ names[i])
+	}
+}
+	
+	</script>
+
+</body>
+</html>
